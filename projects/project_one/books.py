@@ -51,7 +51,7 @@ async def create_book(new_book = Body()):
 async def update_book(updated_book=Body()):
     for i in range(len(BOOKS)):
         if BOOKS[i].get('title').casefold() == updated_book.get('title').casefold():
-            BOOKS[i] == updated_book
+            BOOKS[i] = updated_book
 
 @app.delete('/books/delete_book/{book_title}')
 async def delete_book(book_title: str):

@@ -21,3 +21,9 @@
 # POST HTTP Request Method
 ![alt text](static/img/20260217-1614-59.3539073.gif)
 ![alt text](static/img/20260217-1618-38.6897636.gif)
+
+# PUT HTTP Request Method
+![alt text](static/img/20260223-0105-48.8376922.gif)
+
+# DELETE HTTP Request Method
+![alt text](static/img/20260223-0110-30.7614208.gif)
